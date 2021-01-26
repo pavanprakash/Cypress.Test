@@ -1,0 +1,19 @@
+{
+  "name": "cypress.test",
+  "version": "1.0.0",
+  "description": "Cypress Test",
+  "main": "no",
+  "scripts": {
+    "cypress:open": "$(npm bin)/cypress open",
+    "cypress:features": "cypress run --spec **/*.feature"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.3.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions/"
+  }
+}

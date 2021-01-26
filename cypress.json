@@ -1,0 +1,4 @@
+{
+    "baseUrl": "https://vehicleenquiry.service.gov.uk/?locale=en",
+    "testFiles": "**/*.{feature,features}"
+}
