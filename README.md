@@ -4,7 +4,7 @@ Cypress Testing Framework using Cucumber
 BDD framework used here is cypress-cucumber-preprocessor
 
 
-There is only feature file which is vehicleTest.feature file which is under Integration folder
+There is only one feature file which is vehicleTest.feature file located under Integration folder
 
 Running Tests:
 
